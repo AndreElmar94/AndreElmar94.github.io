@@ -47,6 +47,15 @@ a.button:active {
     justify-content: center;
     align-items: center;
 }
+.container-reviews {
+    margin: 5%;
+    height: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
 .container-price {
     margin: 5%;
