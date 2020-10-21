@@ -91,7 +91,27 @@
 
 
 }
+
 @media all and  (max-width: 850px) {
+    .reviews__list {
+        height: 900px;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .container-reviews {
+        height: 900px;
+    }
+
+    .reviews {
+        height: 950px;
+    }
+
+    .reviews__list-line {
+        width: 273px;
+        height: 2px;
+    }
 
 }
 
@@ -351,6 +371,13 @@
     .plan-texts {
         justify-content: start;
     }
+    .plan-texts-txt1 {
+        width: 350px;
+        height: 35px;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
 
 }
 
@@ -409,4 +436,6 @@
     .header {
         height: 200px;
     }
+
+
 }
