@@ -1,7 +1,7 @@
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-style: normal;
-    margin: 5%;
+    margin: 0;
 }
 
 a {
@@ -34,11 +34,22 @@ a.button:active {
 }
 
 .container {
+    margin: 5%;
     height: 100%;
     width: 1100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+}
+
+.container-header {
+    margin: 10%;
+    height: 500px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -76,7 +87,7 @@ a.button:active {
 
 .info-header {
     width: 1105px;
-    height: 535px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,13 +95,15 @@ a.button:active {
 }
 
 .head-header {
-    width: 1105px;
+    width: 100%;
     height: 50px;
-    margin: 0;
+    /* margin: 0; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    /*!* margin: 15%;*/
+
 }
 
 .single-platform-info {
@@ -452,10 +465,10 @@ a.button:active {
 
 .info-video {
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
     z-index: 3;
     width: 100%;
     height: 100%;
@@ -469,6 +482,7 @@ a.button:active {
     align-items: center;
     justify-content: space-between;
     z-index: 3;
+    margin: 15%;
 }
 
 .info-video-content-button {
@@ -520,15 +534,6 @@ a.button:active {
     justify-content: center;
     align-items: center;
     background-color: #F8FBFE;
-}
-
-.container-content4 {
-    width: 1105px;
-    height: 250px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
 }
 
 .plan-texts {
@@ -793,7 +798,6 @@ a.button:active {
 .reviews {
     width: 100%;
     height: 600px;
-    border: 1px solid red;
     display: flex;
     flex-direction: row;
     align-content: center;
@@ -801,6 +805,7 @@ a.button:active {
 }
 
 .reviews__list {
+    margin: 5%;
     height: 405px;
     width: 1144px;
     border: 1px solid #E8E8EA;
@@ -888,7 +893,6 @@ a.button:active {
 }
 
 .registration {
-    border: 1px solid deepskyblue;
     display: flex;
     width: 100%;
     height: 858px;
@@ -1061,12 +1065,14 @@ span {
 }
 
 .content-footer {
+
     width: 100%;
     height: 313px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin: 5%;
 }
 
 .content-footer-center {
@@ -1174,20 +1180,8 @@ span {
 }
 
 
-/
-/
-pointer: ivents
+/*pointer: ivents*/
+/*flex: 1*/
 
-/
-/
-
-
-/
-/
-flex:
-
-1
-/
-/
 
 
