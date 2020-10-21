@@ -2,6 +2,7 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-style: normal;
     margin: 0;
+    padding: 0;
 }
 
 a {
@@ -33,10 +34,14 @@ a.button:active {
     background: #1f5f50;
 }
 
+.flexible-image {
+    max-width: 100%;
+}
+
 .container {
     margin: 5%;
     height: 100%;
-    width: 1100px;
+    max-width: 1100px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -45,8 +50,8 @@ a.button:active {
 
 .container-header {
     margin: 10%;
-    height: 500px;
-    width: 90%;
+    max-height: 500px;
+    max-width: 1100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -55,7 +60,8 @@ a.button:active {
 
 .header {
     width: 100%;
-    height: 535px;
+    /*max-width: 1600px;*/
+    max-height: 535px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,11 +70,13 @@ a.button:active {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    
 }
 
 
 .single-platform {
     width: 100%;
+    /*max-width: 1600px;*/
     height: 500px;
     display: flex;
     flex-direction: row;
@@ -79,6 +87,7 @@ a.button:active {
 .analytics {
     background-color: #F8FBFE;
     width: 100%;
+    /*max-width: 1600px;*/
     height: 704px;
     display: flex;
     flex-direction: row;
@@ -310,6 +319,7 @@ a.button:active {
 
 .activity {
     width: 100%;
+    /*max-width: 1600px;*/
     height: 704px;
     display: flex;
     flex-direction: row;
@@ -449,6 +459,7 @@ a.button:active {
 .video {
     height: 1200px;
     width: 100%;
+    /*max-width: 1600px;*/
     overflow: hidden;
     position: relative;
 }
@@ -528,6 +539,7 @@ a.button:active {
 
 .plan {
     width: 100%;
+    /*max-width: 1600px;*/
     height: 250px;
     display: flex;
     flex-direction: row;
@@ -567,6 +579,7 @@ a.button:active {
 .price-offer {
     height: 700px;
     width: 100%;
+    /*max-width: 1600px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -797,6 +810,7 @@ a.button:active {
 
 .reviews {
     width: 100%;
+    /*max-width: 1600px;*/
     height: 600px;
     display: flex;
     flex-direction: row;
@@ -895,6 +909,7 @@ a.button:active {
 .registration {
     display: flex;
     width: 100%;
+    /*max-width: 1600px;*/
     height: 858px;
     justify-content: center;
 
@@ -1056,6 +1071,7 @@ span {
 
 .footer {
     width: 100%;
+    /*max-width: 1600px;*/
     height: 432px;
     background-color: #3d3957;
     display: flex;
