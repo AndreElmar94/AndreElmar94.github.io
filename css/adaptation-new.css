@@ -28,6 +28,27 @@
     }
 }
 
+@media all and  (max-width: 1010px) {
+    .reviews__list-cart {
+        height: 275px;
+        justify-content: space-between;
+    }
+
+    .reviews__list-cart-text {
+        font-size: 15px;
+    }
+
+    .reviews__list {
+        height: 280px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .reviews__list-line {
+        height: 275px;
+    }
+}
+
 
 @media all and  (max-width: 930px) {
     .single-platform {
@@ -68,6 +89,9 @@
         justify-content: space-between;
     }
 
+
+}
+@media all and  (max-width: 850px) {
 
 }
 
