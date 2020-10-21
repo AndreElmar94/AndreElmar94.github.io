@@ -10,12 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ecb0ec-dc98-409c-85a9-6610bfd2269d" name="Default Changelist" comment="add file apdation-new.css">
+    <list default="true" id="88ecb0ec-dc98-409c-85a9-6610bfd2269d" name="Default Changelist" comment="add file adaptation-new.css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/adaptation-new.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adaptation-new.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/adaptation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adaptation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +115,7 @@
       <workItem from="1603265017840" duration="2738000" />
       <workItem from="1603267793289" duration="643000" />
       <workItem from="1603268590254" duration="6309000" />
-      <workItem from="1603278380434" duration="27422000" />
+      <workItem from="1603278380434" duration="28721000" />
     </task>
     <task id="LOCAL-00001" summary="updates file">
       <created>1603272302266</created>
@@ -140,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603300929867</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add file adaptation-new.css">
+      <created>1603306924579</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603306924579</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +167,8 @@
     <MESSAGE value="updates file" />
     <MESSAGE value="add new file apdation-new.css" />
     <MESSAGE value="add file apdation-new.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="add file apdation-new.css" />
+    <MESSAGE value="add file adaptation-new.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file adaptation-new.css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="965" y="300" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603225632603">
@@ -173,10 +179,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="554" y="327" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1603176369812" />
-    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603300947279">
+    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603306931960">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1603300947279" />
+    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1603306931960" />
     <state x="1013" y="466" width="438" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603227842498">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
