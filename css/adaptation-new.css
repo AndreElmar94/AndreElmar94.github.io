@@ -21,6 +21,11 @@
         width: 900px;
         justify-content: center;
     }
+
+    .activity-info {
+        width: 900px;
+        justify-content: center;
+    }
 }
 
 
@@ -51,6 +56,16 @@
         height: 930px;
         flex-direction: column;
         justify-content: center;
+    }
+
+    .activity {
+        height: 950px;
+    }
+
+    .activity-info {
+        height: 930px;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
 
@@ -90,6 +105,52 @@
         display: flex;
         flex-direction: column;
     }
+
+    .plan {
+        height: 350px;
+    }
+
+    .container-plan {
+        height: 350px;
+        width: 60%;
+        flex-direction: column;
+    }
+
+    .plan-texts {
+        height: 200px;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .plan-texts-txt2 {
+        width: 100%;
+    }
+
+    .price-offer {
+        height: 800px;
+    }
+
+    .price-offer-cards-two {
+        justify-content: center;
+        height: 750px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .price-offer-card {
+        height: 350px;
+        width: 250px;
+    }
+
+    .price-offer-card-container {
+        margin: 20px;
+    }
+
+    .description-price-offer-card {
+        font-size: 12px;
+    }
+
 }
 
 
@@ -191,7 +252,16 @@
         height: 200px;
     }
 
+    .activity-info-pictures {
+        width: 300px;
+        height: 200px;
+    }
+
     .analytics-info {
+        height: 400px;
+    }
+
+    .activity-info {
         height: 400px;
     }
 
@@ -199,14 +269,17 @@
         height: 400px;
     }
 
+    .analytics {
+        height: 450px;
+    }
+
+    .activity {
+        height: 450px;
+    }
 
     .analytics-info-pictures-image1 {
         width: 100px;
         height: 180px;
-    }
-
-    .analytics {
-        height: 450px;
     }
 
     .analytics-info-pictures-rectangleBig {
@@ -216,12 +289,44 @@
     }
 
     .analytics-info-pictures-image2 {
-        width: 200px;
-        height: 150px;
+        width: 140px;
+        height: 90px;
         background-size: 200px 150px;
         top: -260px;
     }
 
+    .activity-info-pictures-image3 {
+        width: 150px;
+        height: 120px;
+        left: 20px;
+        top: 20px;
+    }
+
+    .activity-info-pictures-rectangleBig2 {
+        width: 170px;
+        height: 85px;
+        left: 70px;
+        bottom: 35px;
+    }
+
+    .activity-info-pictures-image4 {
+        width: 150px;
+        height: 200px;
+        top: -200px;
+    }
+
+    .plan {
+        height: 200px;
+    }
+
+    .container-plan {
+        height: 200px;
+        width: 100%;
+    }
+
+    .plan-texts {
+        justify-content: start;
+    }
 
 }
 
