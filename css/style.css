@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-family: Arial;
     font-style: normal;
     margin: 0;
     padding: 0;
@@ -164,6 +164,9 @@ a.button:active {
     align-items: center;
     /*!* margin: 15%;*/
 
+    /*position: fixed;*/
+    /*z-index: 9999;*/
+
 }
 
 .single-platform-info {
@@ -270,7 +273,7 @@ a.button:active {
     height: 114px;
     width: 395px;
     font-weight: bold;
-    font-size: 38px;
+    font-size: 37px;
     line-height: 50px;
     color: #000000;
     letter-spacing: -0.3px;
@@ -501,6 +504,7 @@ a.button:active {
 .content-video {
     position: relative;
     z-index: 1;
+    /*pointer-events: none;*/
 }
 
 .video_media {
