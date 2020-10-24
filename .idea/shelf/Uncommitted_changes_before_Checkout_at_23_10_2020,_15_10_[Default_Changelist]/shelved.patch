@@ -1,0 +1,354 @@
+Index: css/adaptation.css
+===================================================================
+--- css/adaptation.css	(revision a7f7dc6a50adbe461a32dbdf104df2c1e73a4697)
++++ css/adaptation.css	(revision a7f7dc6a50adbe461a32dbdf104df2c1e73a4697)
+@@ -1,301 +0,0 @@
+-@media (min-width: 600px) and (max-width: 1100px) {
+-    /* при ширине экрана в 1100 px и менее будут выполненены след параметры*/
+-    .header {
+-        width: 100%;
+-        flex-direction: column;
+-        justify-content: space-between;
+-        align-items: center;
+-    }
+-
+-    .container-header {
+-        height: 400px;
+-    }
+-
+-    .info-header {
+-        width: 100%;
+-    }
+-
+-    .analytics {
+-        width: 100%;
+-        height: 800px;
+-        flex-direction: column;
+-        justify-content: space-between;
+-        align-items: center;
+-    }
+-
+-    /*.container-content2 {*/
+-    /*    width: 100%;*/
+-    /*    display: flex;*/
+-    /*    flex-direction: column;*/
+-    /*    justify-content: space-between;*/
+-    /*    align-items: center;*/
+-    /*}*/
+-    .analytics-info {
+-        width: 100%;
+-        flex-direction: column;
+-        justify-content: space-between;
+-        align-items: center;
+-    }
+-
+-
+-    .info-video {
+-        position: absolute;
+-        width: 100%;
+-        flex-direction: row;
+-        justify-content: center;
+-        align-items: center;
+-    }
+-
+-    .head-header {
+-        width: 150px;
+-        height: 200px;
+-        flex-direction: column;
+-        justify-content: space-between;
+-        align-items: center;
+-    }
+-
+-    .menu-head {
+-        width: 150px;
+-        height: 200px;
+-        flex-direction: column;
+-        justify-content: center;
+-        align-items: center;
+-    }
+-
+-    .plan {
+-        width: 100%;
+-    }
+-
+-    .content-video {
+-        width: 100%;
+-        height: 100%;
+-    }
+-
+-    .price-offer {
+-        width: 100%;
+-    }
+-
+-    .container-footer {
+-        width: 100%;
+-    }
+-
+-    .video {
+-        width: 100%;
+-
+-    }
+-
+-    .single-platform {
+-        width: 100%;
+-        height: 900px;
+-        flex-direction: column;
+-        align-items: center;
+-    }
+-
+-    .container-content1 {
+-        width: 100%;
+-        height: 100%;
+-        flex-direction: column;
+-        align-items: center;
+-    }
+-
+-    .single-platform-info {
+-        width: 100%;
+-        height: 100%;
+-        flex-direction: column;
+-        justify-content: space-around;
+-        align-items: center;
+-    }
+-
+-    .activity {
+-        width: 100%;
+-        height: 1000px;
+-        flex-direction: column;
+-        justify-content: space-between;
+-        align-items: center;
+-    }
+-
+-    .container-content3 {
+-        width: 100%;
+-        height: 100%;
+-        flex-direction: column;
+-        justify-content: center;
+-        align-items: center;
+-    }
+-
+-
+-    .activity-info {
+-        width: 100%;
+-        height: 100%;
+-        flex-direction: column;
+-        justify-content: space-between;
+-        align-items: center;
+-    }
+-
+-
+-    .price-offer {
+-        width: 100%;
+-        height: 1500px;
+-        display: flex;
+-        flex-direction: column;
+-        justify-content: space-between;
+-        align-items: center;
+-    }
+-
+-    .container-footer {
+-        width: 100%;
+-        height: 1500px;
+-        display: flex;
+-        flex-direction: column;
+-        justify-content: space-around;
+-        align-items: center;
+-    }
+-
+-    .price-offer-cards-two {
+-        width: 100%;
+-        height: 1200px;
+-        display: flex;
+-        flex-direction: column;
+-        justify-content: space-between;
+-        align-items: center;
+-    }
+-
+-    .single-platform-line {
+-        opacity: 0
+-    }
+-
+-    .button {
+-        display: flex;
+-        flex-direction: column;
+-        justify-content: center;
+-        align-items: center;
+-    }
+-
+-    .text-button {
+-        height: 15px;
+-        font-size: 13px;
+-        line-height: 15px;
+-        text-align: center;
+-    }
+-
+-    .reviews {
+-        width: 100%;
+-        height: 1400px;
+-        flex-direction: column;
+-    }
+-
+-    .container {
+-        height: 100%;
+-        width: 100%;
+-        flex-direction: column;
+-        justify-content: space-around;
+-    }
+-
+-    .reviews__list {
+-        height: 100%;
+-        width: 100%;
+-        flex-direction: column;
+-    }
+-
+-    .reviews__list-line {
+-        width: 405px;
+-        height: 2px;
+-        border: 1px solid #E8E8EA;
+-        background-color: #E8E8EA;
+-    }
+-
+-    .registration {
+-        height: 800px;
+-        justify-content: center;
+-    }
+-
+-    .registration-text-tittle {
+-        height: 150px;
+-        width: 420px;
+-        flex-direction: column;
+-    }
+-
+-    .footer {
+-        width: 100%;
+-        height: 1200px;
+-        flex-direction: column;
+-        justify-content: space-around;
+-        align-items: center;
+-    }
+-
+-    .content-footer {
+-        height: 100%;
+-    }
+-
+-    .content-footer-center {
+-        height: 700px;
+-        flex-direction: column;
+-        justify-content: center;
+-        align-items: center;
+-        width: 150px;
+-    }
+-
+-    .content-footer-bottom-line {
+-        width: 277px;
+-        height: 200px;
+-        flex-direction: column;
+-    }
+-
+-    .content-footer-bottom-line-left {
+-        width: 100%;
+-        font-weight: normal;
+-        margin-left: 35%;
+-    }
+-
+-    .content-footer-center-column-big {
+-        align-items: center;
+-    }
+-
+-    .content-footer-center-column-small {
+-        align-items: center;
+-
+-    }
+-
+-    .info-header {
+-        width: 100%;
+-        height: 250px;
+-
+-    }
+-
+-    .head-header {
+-        width: 150px;
+-        height: 150px;
+-    }
+-
+-    @media (max-width: 600px) {
+-        .header {
+-            height: 280px;
+-        }
+-
+-        .container-header {
+-            height: 100%;
+-            width: 80%;
+-        }
+-
+-        .menu-head {
+-            width: 300px;
+-            justify-content: space-around;
+-            font-size: 15px;
+-        }
+-
+-        .info-content-header-text1 {
+-            height: 50px;
+-            width: 50%;
+-            font-size: 30px;
+-        }
+-
+-        .info-content-header-text2 {
+-            height: 60px;
+-            width: 60%;
+-            font-size: 15px;
+-            line-height: 30px;
+-
+-        }
+-
+-
+-    }
+-}
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"88ecb0ec-dc98-409c-85a9-6610bfd2269d\" name=\"Default Changelist\" comment=\"update adaptation-new.css\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/css/adaptation-new.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/css/adaptation-new.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/css/adaptation.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/css/adaptation.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/css/style.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/css/style.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/index.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ComposerSettings\">\n    <execution />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"CSS File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\n      <map>\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\n      </map>\n    </option>\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n    <option name=\"ROOT_SYNC\" value=\"SYNC\" />\n  </component>\n  <component name=\"GitToolBoxStore\">\n    <option name=\"projectConfigVersion\" value=\"2\" />\n    <option name=\"recentBranches\">\n      <RecentBranches>\n        <option name=\"branchesForRepo\">\n          <list>\n            <RecentBranchesForRepo>\n              <option name=\"branches\">\n                <list>\n                  <RecentBranch>\n                    <option name=\"branchName\" value=\"new-branch2\" />\n                    <option name=\"lastUsedInstant\" value=\"1603272174\" />\n                  </RecentBranch>\n                  <RecentBranch>\n                    <option name=\"branchName\" value=\"master\" />\n                    <option name=\"lastUsedInstant\" value=\"1603272093\" />\n                  </RecentBranch>\n                  <RecentBranch>\n                    <option name=\"branchName\" value=\"new-branch\" />\n                    <option name=\"lastUsedInstant\" value=\"1603227722\" />\n                  </RecentBranch>\n                </list>\n              </option>\n              <option name=\"repositoryRootUrl\" value=\"file://$PROJECT_DIR$\" />\n            </RecentBranchesForRepo>\n          </list>\n        </option>\n      </RecentBranches>\n    </option>\n  </component>\n  <component name=\"ProjectId\" id=\"1j6INnxbDh8T2S0gk2osIUdx1Yh\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"vcs.Git\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n      <recent name=\"$PROJECT_DIR$/html\" />\n      <recent name=\"$PROJECT_DIR$/video\" />\n      <recent name=\"$PROJECT_DIR$/css\" />\n      <recent name=\"$PROJECT_DIR$/images\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"88ecb0ec-dc98-409c-85a9-6610bfd2269d\" name=\"Default Changelist\" comment=\"\" />\n      <created>1603118076291</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1603118076291</updated>\n      <workItem from=\"1603118077321\" duration=\"6469000\" />\n      <workItem from=\"1603131619968\" duration=\"19000\" />\n      <workItem from=\"1603176261623\" duration=\"12966000\" />\n      <workItem from=\"1603193356708\" duration=\"1681000\" />\n      <workItem from=\"1603216391787\" duration=\"11216000\" />\n      <workItem from=\"1603265017840\" duration=\"2738000\" />\n      <workItem from=\"1603267793289\" duration=\"643000\" />\n      <workItem from=\"1603268590254\" duration=\"6309000\" />\n      <workItem from=\"1603278380434\" duration=\"31957000\" />\n      <workItem from=\"1603374036584\" duration=\"4741000\" />\n      <workItem from=\"1603403156186\" duration=\"288000\" />\n      <workItem from=\"1603452816336\" duration=\"1780000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"updates file\">\n      <created>1603272302266</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1603272302266</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"add new file apdation-new.css\">\n      <created>1603294132063</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1603294132063</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"add file apdation-new.css\">\n      <created>1603300929867</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1603300929867</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"add file adaptation-new.css\">\n      <created>1603306924579</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1603306924579</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"add file adaptation-new.css\">\n      <created>1603308063388</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1603308063388</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"add file adaptation-new.css\">\n      <created>1603309426644</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1603309426644</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"update adaptation-new.css\">\n      <created>1603310148012</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1603310148012</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"8\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"updates file\" />\n    <MESSAGE value=\"add new file apdation-new.css\" />\n    <MESSAGE value=\"add file apdation-new.css\" />\n    <MESSAGE value=\"add file adaptation-new.css\" />\n    <MESSAGE value=\"update adaptation-new.css\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"update adaptation-new.css\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"965\" y=\"300\" width=\"524\" height=\"502\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog\" timestamp=\"1603225632603\">\n      <screen x=\"67\" y=\"27\" width=\"1853\" height=\"1053\" />\n    </state>\n    <state x=\"965\" y=\"300\" width=\"524\" height=\"502\" key=\"#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053\" timestamp=\"1603225632603\" />\n    <state x=\"554\" y=\"327\" key=\"SettingsEditor\" timestamp=\"1603176369812\">\n      <screen x=\"67\" y=\"27\" width=\"1853\" height=\"1053\" />\n    </state>\n    <state x=\"554\" y=\"327\" key=\"SettingsEditor/67.27.1853.1053@67.27.1853.1053\" timestamp=\"1603176369812\" />\n    <state x=\"822\" y=\"287\" width=\"800\" height=\"528\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1603310159810\">\n      <screen x=\"67\" y=\"27\" width=\"1853\" height=\"1053\" />\n    </state>\n    <state x=\"822\" y=\"287\" width=\"800\" height=\"528\" key=\"Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053\" timestamp=\"1603310159810\" />\n    <state x=\"1013\" y=\"466\" width=\"438\" height=\"170\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1603227842498\">\n      <screen x=\"67\" y=\"27\" width=\"1853\" height=\"1053\" />\n    </state>\n    <state x=\"1013\" y=\"466\" width=\"438\" height=\"170\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1853.1053@67.27.1853.1053\" timestamp=\"1603227842498\" />\n    <state x=\"1299\" y=\"245\" width=\"539\" height=\"612\" key=\"git4idea.branch.GitSmartOperationDialog\" timestamp=\"1603309611122\">\n      <screen x=\"67\" y=\"27\" width=\"1853\" height=\"1053\" />\n    </state>\n    <state x=\"1299\" y=\"245\" width=\"539\" height=\"612\" key=\"git4idea.branch.GitSmartOperationDialog/67.27.1853.1053@67.27.1853.1053\" timestamp=\"1603309611122\" />\n    <state x=\"869\" y=\"604\" width=\"772\" height=\"176\" key=\"git4idea.remote.GitConfigureRemotesDialog\" timestamp=\"1603226425304\">\n      <screen x=\"67\" y=\"27\" width=\"1853\" height=\"1053\" />\n    </state>\n    <state x=\"869\" y=\"604\" width=\"772\" height=\"176\" key=\"git4idea.remote.GitConfigureRemotesDialog/67.27.1853.1053@67.27.1853.1053\" timestamp=\"1603226425304\" />\n    <state x=\"657\" y=\"253\" key=\"run.anything.popup\" timestamp=\"1603120677779\">\n      <screen x=\"67\" y=\"27\" width=\"1853\" height=\"1053\" />\n    </state>\n    <state x=\"657\" y=\"253\" key=\"run.anything.popup/67.27.1853.1053@67.27.1853.1053\" timestamp=\"1603120677779\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision a7f7dc6a50adbe461a32dbdf104df2c1e73a4697)
++++ .idea/workspace.xml	(date 1603454911684)
+@@ -11,11 +11,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="88ecb0ec-dc98-409c-85a9-6610bfd2269d" name="Default Changelist" comment="update adaptation-new.css">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/adaptation-new.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adaptation-new.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/adaptation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adaptation.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/css/adaptation.css" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -120,7 +116,7 @@
+       <workItem from="1603278380434" duration="31957000" />
+       <workItem from="1603374036584" duration="4741000" />
+       <workItem from="1603403156186" duration="288000" />
+-      <workItem from="1603452816336" duration="1780000" />
++      <workItem from="1603452816336" duration="2094000" />
+     </task>
+     <task id="LOCAL-00001" summary="updates file">
+       <created>1603272302266</created>
+@@ -171,7 +167,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1603310148012</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="update adaptation-new.css">
++      <created>1603454871209</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1603454871209</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">

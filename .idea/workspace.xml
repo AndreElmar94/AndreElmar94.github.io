@@ -11,9 +11,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88ecb0ec-dc98-409c-85a9-6610bfd2269d" name="Default Changelist" comment="update adaptation-new.css">
+      <change afterPath="$PROJECT_DIR$/../../Account_dto/src/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountCreateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountFullDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountPreviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountUpdateDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/adaptation-new.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adaptation-new.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/adaptation.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adaptation.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/adaptation.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -121,6 +128,8 @@
       <workItem from="1603374036584" duration="4741000" />
       <workItem from="1603403156186" duration="288000" />
       <workItem from="1603452816336" duration="1780000" />
+      <workItem from="1603466681169" duration="33000" />
+      <workItem from="1603526346056" duration="4097000" />
     </task>
     <task id="LOCAL-00001" summary="updates file">
       <created>1603272302266</created>
