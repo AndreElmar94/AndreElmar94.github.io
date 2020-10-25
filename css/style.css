@@ -518,21 +518,17 @@ a.button:active {
 .content-video {
     position: relative;
     z-index: 1;
-    /*pointer-events: none;*/
 }
-
 .video_media {
     position: absolute;
     width: 100%;
 }
-
 .video {
     height: 440px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-
 .video:after {
     content: "";
     display: block;
@@ -541,8 +537,8 @@ a.button:active {
     height: 100%;
     background-color: rgba(0, 0, 0, .6);
     z-index: 2;
+    object-fit: cover;
 }
-
 .info-video {
     position: absolute;
     display: flex;
@@ -552,6 +548,19 @@ a.button:active {
     z-index: 3;
     width: 70%;
     height: 50%;
+    margin: 10%;
+    padding-left: 5%;
+}
+
+.registration-text-tittle-txt2 {
+    height: 50px;
+    width: 470px;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #000000;
 }
 
 .info-video-content-button {
@@ -999,11 +1008,11 @@ a.button:active {
 }
 
 .registration-text-tittle {
-    height: 50px;
-    width: 707px;
+    flex-direction: column;
+    width: 50%;
+    height: 30%;
+    justify-content: space-around;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
 }
 
