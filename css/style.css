@@ -515,30 +515,30 @@ a.button:active {
     color: #DBE4F1;
 }
 
-.content-video {
-    position: relative;
-    z-index: 1;
-}
+/*.content-video {*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*}*/
 .video_media {
     position: absolute;
     width: 100%;
+    /*object-fit: cover;*/
 }
 .video {
-    height: 440px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
-.video:after {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, .6);
-    z-index: 2;
-    object-fit: cover;
-}
+/*.video:after {*/
+/*    content: "";*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-color: rgba(0, 0, 0, .6);*/
+/*    z-index: 2;*/
+/*}*/
 .info-video {
     position: absolute;
     display: flex;
