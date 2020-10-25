@@ -148,7 +148,7 @@ a.button:active {
 
 .info-header {
     width: 80%;
-    height: 40%;
+    height: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -424,7 +424,7 @@ a.button:active {
     text-align: center;
     top: calc(50% - 68px / 2 - 96px);
     font-style: normal;
-    line-height: 68px;
+    line-height: 50px;
     color: white;
 }
 
@@ -524,12 +524,14 @@ a.button:active {
     width: 100%;
     /*object-fit: cover;*/
 }
+
 .video {
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
+
 /*.video:after {*/
 /*    content: "";*/
 /*    display: block;*/
