@@ -148,11 +148,11 @@ a.button:active {
 
 .info-header {
     width: 80%;
-    height: 50%;
+    height: 40%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     z-index: 3;
     margin: 15%;
 }
