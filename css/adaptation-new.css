@@ -492,6 +492,17 @@
         line-height: 35px;
         padding-left: 25%;
     }
+
+    .content-footer-center {
+        width: 30%;
+    }
+    .content-footer-center-column-big {
+        font-size: 14px;
+    }
+    .content-footer-center-column-small {
+        font-size: 14px;
+    }
+
 }
 
 @media all and  (max-width: 400px) {
