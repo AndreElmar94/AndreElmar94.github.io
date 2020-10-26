@@ -365,6 +365,29 @@
 
 }
 
+@media all and  (max-width: 470px) {
+    .registration-form {
+        margin: 70px;
+    }
+    .registration-form-input {
+        width: 80%;
+        height: 35px;
+    }
+    .registration-form-attach {
+        width: 80%;
+        flex-direction: column;
+        height: 60px;
+        justify-content: center;
+    }
+
+    .registration-form-button {
+        width: 300px;
+    }
+}
+
+
+
+
 
 @media all and  (max-width: 450px) {
     .container-header {
@@ -557,6 +580,16 @@
         padding-left: 30%;
     }
 }
+
+@media all and (max-width: 370px) {
+    .registration-form-input {
+        width: 60%;
+        height: 30px;
+    }
+
+
+}
+
 
 @media all and (max-width: 335px) {
     .registration-text-tittle-txt {
