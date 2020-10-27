@@ -51,7 +51,6 @@ a.button:active {
 .container-footer {
     margin: 5%;
     height: 100%;
-    width: 150%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -567,16 +566,6 @@ a.button:active {
     pointer-events: none;
 }
 
-.registration-text-tittle-txt2 {
-    height: 50px;
-    width: 470px;
-    font-weight: bold;
-    font-size: 38px;
-    line-height: 50px;
-    text-align: center;
-    letter-spacing: -0.3px;
-    color: #000000;
-}
 
 .info-video-content-button {
     width: 96px;
@@ -1041,6 +1030,17 @@ a.button:active {
     color: #000000;
 }
 
+.registration-text-tittle-txt2 {
+    height: 50px;
+    width: 470px;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #000000;
+}
+
 .registration-content {
     width: 100%;
     height: 485px;
@@ -1048,9 +1048,13 @@ a.button:active {
     box-sizing: border-box;
     box-shadow: 0px 22px 54px rgba(67, 87, 138, 0.29);
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .registration-form {
+
     width: 448px;
     height: 385px;
     margin: 50px;
