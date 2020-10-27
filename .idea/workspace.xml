@@ -19,10 +19,34 @@
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountUpdateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/dto/admin/AdminCreateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/dto/admin/AdminFullDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/dto/appointment/AppointmentCreateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/dto/appointment/AppointmentFullDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/dto/appointment/AppointmentPreviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/dto/appointment/AppointmentUpdateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/dto/comment/CommentCreateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/dto/comment/CommentFullDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/dto/comment/CommentPreviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/dto/comment/CommentUpdateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/dto/trainer/TrainerCreateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/dto/trainer/TrainerFullDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/dto/trainer/TrainerPreviewDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/dto/trainer/TrainerUpdateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/repository/AdminRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/repository/AppointmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/repository/TrainerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/repository/impl/AdminRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/repository/impl/AppointmentRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/repository/impl/CommentRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/j2019-trainer-manager-lapinskaya/src/main/java/by/itstep/j2019trainermanagerlapinskaya/repository/impl/TrainerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/cod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/trainer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/adaptation-new.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/adaptation-new.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +160,10 @@
       <workItem from="1603619995738" duration="3475000" />
       <workItem from="1603708132655" duration="3139000" />
       <workItem from="1603720970864" duration="3106000" />
-      <workItem from="1603804851000" duration="1324000" />
+      <workItem from="1603804851000" duration="1717000" />
+      <workItem from="1603813565718" duration="2554000" />
+      <workItem from="1603823705021" duration="1542000" />
+      <workItem from="1603825951581" duration="63000" />
     </task>
     <task id="LOCAL-00001" summary="updates file">
       <created>1603272302266</created>
@@ -250,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603722993934</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="update">
+      <created>1603806665193</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1603806665193</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,10 +320,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="554" y="327" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1603176369812" />
-    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603723013452">
+    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603806682260">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1603723013452" />
+    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1603806682260" />
     <state x="1013" y="466" width="438" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603227842498">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
