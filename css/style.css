@@ -528,6 +528,7 @@ a.button:active {
 /*    position: relative;*/
 /*    z-index: 1;*/
 /*}*/
+
 .video_media {
     position: absolute;
     width: 100%;
@@ -541,33 +542,40 @@ a.button:active {
     position: relative;
 }
 
-.video:after {
+.info-video {
     content: "";
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .6);
     z-index: 2;
-    pointer-events: none;
+    /*pointer-events: none;*/
 }
 
-.info-video {
+.info-video:after {
     position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
     z-index: 3;
-    width: 70%;
-    height: 50%;
-    margin: 10%;
-    padding-left: 5%;
-    pointer-events: none;
+    /*width: 70%;*/
+    /*height: 50%;*/
+    /*margin: 10%;*/
+    /*padding-left: 5%;*/
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /*pointer-events: none;*/
 }
 
 
-.info-video-content-button {
+button.videoPlayButton {
     width: 96px;
     height: 96px;
     display: flex;
@@ -667,41 +675,24 @@ a.button:active {
     align-items: center;
 }
 
-.price-offer-buttons-button1 {
+.toggleButton {
     border: 1px solid darkgray;
     height: 46px;
     width: 125px;
+    /*background: #50E3C2;*/
+    border-radius: 23px;
+    font-weight: 600;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border-radius: 23px;
 }
 
-.price-offer-buttons-button1-txt {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 28px;
-    letter-spacing: -0.3px;
-    text-transform: uppercase;
-    color: #0F3D33;
-    text-align: center;
-}
-
-.price-offer-buttons-button2 {
-    border: 1px solid darkgray;
-    height: 46px;
-    width: 125px;
+.toggleButtonActive {
     background: #50E3C2;
-    border-radius: 23px;
-    font-weight: 600;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
-.price-offer-buttons-button2-txt {
+.toggleButton-text {
     font-weight: 600;
     font-size: 12px;
     line-height: 28px;
@@ -718,7 +709,6 @@ a.button:active {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-
 }
 
 .logo-twitter {
@@ -1299,5 +1289,8 @@ span {
 /*pointer: ivents*/
 /*flex: 1*/
 
+.headerTop {
+    transition: background.3s;
 
+}
 
