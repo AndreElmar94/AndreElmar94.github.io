@@ -60,7 +60,7 @@ for (let button of buttons) {
             lines.forEach(i => i.classList.remove('cardActive'));
 
             this.classList.toggle('toggleButtonActive');
-            this.classList.add('cardActive');
+            line.classList.add('cardActive');
 
             // });
         });

@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ecb0ec-dc98-409c-85a9-6610bfd2269d" name="Default Changelist" comment="add new file =&gt; mail.js &amp; updates all classes">
+    <list default="true" id="88ecb0ec-dc98-409c-85a9-6610bfd2269d" name="Default Changelist" comment="updates">
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/Account.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountCreateDto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountFullDto.java" afterDir="false" />
@@ -48,9 +48,6 @@
       <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/trainer1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/trainer2.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/trainer3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -175,7 +172,7 @@
       <workItem from="1604330396120" duration="2417000" />
       <workItem from="1604390465814" duration="14580000" />
       <workItem from="1604408127395" duration="7380000" />
-      <workItem from="1604416511141" duration="5606000" />
+      <workItem from="1604416511141" duration="6413000" />
     </task>
     <task id="LOCAL-00001" summary="updates file">
       <created>1603272302266</created>
@@ -310,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604414725203</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="updates">
+      <created>1604423001321</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1604423001321</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +340,8 @@
     <MESSAGE value="update adaptation-new.css" />
     <MESSAGE value="update" />
     <MESSAGE value="add new file =&gt; mail.js &amp; updates all classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new file =&gt; mail.js &amp; updates all classes" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="965" y="300" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603225632603">
@@ -347,10 +352,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="554" y="327" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1603176369812" />
-    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604414798984">
+    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604423017766">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1604414798984" />
+    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1604423017766" />
     <state x="1013" y="466" width="438" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603227842498">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
