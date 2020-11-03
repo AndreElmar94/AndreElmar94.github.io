@@ -735,6 +735,16 @@ button.videoPlayButton {
     align-items: flex-start;
 }
 
+.cardActive {
+    background: #50E3C2;
+
+}
+.lineTopCard {
+    height: 4px;
+    width: 100%;
+    border-radius: 6px;
+}
+
 .price-offer-card-container {
     margin: 30px;
     height: 416px;
