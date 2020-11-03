@@ -33,10 +33,10 @@
 </head>
 <body>
 
-
+<!--<header  id=headerTop">-->
 <div class="header">
     <div class="container-header">
-        <div class="head-header">
+        <div class="head-header" id="headerTop">
             <a href="">
                 <div class="logo-head"></div>
             </a>
@@ -70,7 +70,7 @@
         </div>
     </div>
 </div>
-
+<!--</header>-->
 <!--class HEADER-->
 
 <div class="single-platform">
@@ -170,15 +170,13 @@
 
 <div class="video">
     <div class="content-video">
-        <video class="video_media" src="video/movie.mp4" controls></video>
+        <video class="video_media" src="video/movie.mp4"></video>
     </div>
 
     <div class="info-video">
-        <a href="">
-            <div class="info-video-content-button">
-                <div class="info-video-content-button-triangle-right"></div>
-            </div>
-        </a>
+        <button type="button" class="videoPlayButton">
+            <div class="info-video-content-button-triangle-right"></div>
+        </button>
         <div class="info-video-content-txt1">We help you to be successful</div>
         <div class="info-video-content-txt2">Wireframes are generally created by business analysts, user experience
             designers,
@@ -206,22 +204,29 @@
 <!--plan-->
 
 <div class="price-offer">
+
+
+
     <div class="price-offer-buttons">
-        <div>
-            <a href="" class="price-offer-buttons-button1">
-                <div class="price-offer-buttons-button1-txt">
-                    Monthly
-                </div>
-            </a>
-        </div>
-        <div>
-            <a href="" class="price-offer-buttons-button2">
-                <div class="price-offer-buttons-button2-txt">
-                    Yearly
-                </div>
-            </a>
-        </div>
+        <button type="button" class="toggleButton toggleButtonActive">
+            <p class="toggleButton-text">Monthly</p>
+        </button>
+        <button type="button" class="toggleButton">
+            <p class="toggleButton-text">Yearly</p>
+        </button>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
     <div class="container-price">
         <div class="price-offer-cards-two">
             <div class="price-offer-card">
@@ -568,6 +573,6 @@
     </div>
 </div>
 
-
+<script src="main.js"></script>
 </body>
 </html>
