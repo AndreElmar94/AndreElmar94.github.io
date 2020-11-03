@@ -10,9 +10,6 @@
 // })();
 
 
-
-
-
 const headerLocal = document.querySelector('#headerTop');
 
 window.addEventListener('scroll', function () {
@@ -23,24 +20,10 @@ window.addEventListener('scroll', function () {
     // headerLocal.style.backgroundColor = 'none';
 
 
-    headerLocal.style.backgroundColor = scrollFromTop !==0 ? 'red' : 'none';
+    headerLocal.style.backgroundColor = scrollFromTop !== 0 ? 'red' : 'none';
 
     console.log('offsetFromTop', scrollFromTop);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 const videoPlayButton = document.querySelector('.videoPlayButton');
@@ -53,26 +36,38 @@ videoPlayButton.addEventListener('click', function () {
 // document.querySelector().log('movie-video').play();
 
 
+// const buttons = document.querySelectorAll('.toggleButton');
+// const lines = document.querySelectorAll('.lineTopCard');
+//
+// for (let button of buttons) {
+//     button.addEventListener('click', function () {
+//         buttons.forEach(i => i.classList.remove('toggleButtonActive'));
+//     this.classList.toggle('toggleButtonActive');
+//     });
+// };
 
 
-let buttons = document.querySelectorAll('.toggleButton');
+const buttons = document.querySelectorAll('.toggleButton');
+const lines = document.querySelectorAll('.lineTopCard');
+
 for (let button of buttons) {
-    button.addEventListener('click', function () {
-        buttons.forEach(i =>i.classList.remove('toggleButtonActive'));
+    for (let line of lines) {
 
-        this.classList.toggle('toggleButtonActive');
-    });
-};
+        button.addEventListener('click', function () {
+            // line.addEventListener(function () {
 
+            buttons.forEach(i => i.classList.remove('toggleButtonActive'));
+            lines.forEach(i => i.classList.remove('cardActive'));
 
+            this.classList.toggle('toggleButtonActive');
+            this.classList.add('cardActive');
 
-
-
-
-
-
-
-
+            // });
+        });
+    }
+    ;
+}
+;
 
 
 //
