@@ -1299,8 +1299,9 @@ span {
 /*pointer: ivents*/
 /*flex: 1*/
 
-.headerTop {
+#headerTop {
     transition: background.3s;
-
 }
+
+
 
