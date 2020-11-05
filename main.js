@@ -12,25 +12,48 @@
 
 const headerLocal = document.querySelector('#headerTop');
 
-window.addEventListener('scroll', function () {
-    const scrollFromTop = document.querySelector('html').scrollTo();
-    // if (scrollFromTop !== 0) {
-    //     headerLocal.style.backgroundColor = 'red';
-    // }
-    // headerLocal.style.backgroundColor = 'none';
+window.addEventListener('scroll', function (e) {
+    const scrollFromTop = document.querySelector('html').scrollTop;
+    if (scrollFromTop !== 0) {
+        headerLocal.style.background = 'green';
+    } else {
 
+        headerLocal.style.background = 'none';
+    }
 
-    headerLocal.style.backgroundColor = scrollFromTop !== 0 ? 'red' : 'none';
+    // headerLocal.style.background = scrollFromTop !== 0 ? 'red' : 'none';
 
     console.log('offsetFromTop', scrollFromTop);
 });
 
+//
+// window.addEventListener('scroll', function (e) {
+//     let scrollHeader = document.querySelector('head-header');
+//     if (document.documentElement.scrollTop() || document.body.scrollTop > window.innerHeight) {
+//         scrollHeader.style.backgroundColor = 'red';
+//     } else {
+//         scrollHeader.style.backgroundColor = 'none';
+//     }
+// });
 
-const videoPlayButton = document.querySelector('.videoPlayButton');
-videoPlayButton.addEventListener('click', function () {
-    document.querySelector('.info-video').style.display = 'none';
-    document.querySelector('.video_media').play();
-});
+
+// window.addEventListener('scroll', function (e) {
+//     let scrollHeader = document.getElementById('headerTop');
+//     if (document.documentElement.scrollTo() || document.body.scrollTop > window.innerHeight) {
+//         scrollHeader.classList.add('header-colored');
+//         scrollHeader.classList.remove('note-color');
+//     } else {
+//         scrollHeader.classList.remove('header-colored');
+//         scrollHeader.classList.add('note-color');
+//     }
+// });
+
+//
+// const videoPlayButton = document.querySelector('.videoPlayButton');
+// videoPlayButton.addEventListener('click', function () {
+//     document.querySelector('.info-video').style.display = 'none';
+//     document.querySelector('.video_media').play();
+// });
 
 // document.querySelector().log('movie-video').style.display = 'block';
 // document.querySelector().log('movie-video').play();
