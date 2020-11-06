@@ -93,6 +93,14 @@ for (let button of buttons) {
 ;
 
 
+// document.querySelector('.price-offer-buttons').addEventListener('click', function () {
+//
+// })
+
+
+
+
+
 //
 // const playButtons = document.querySelectorAll('.toggle-button');
 // for (let i = 0; i < playButtons.length; i++) {
@@ -114,3 +122,7 @@ for (let button of buttons) {
 //         }
 //     });
 // }
+
+
+
+
