@@ -206,10 +206,10 @@
 <div class="price-offer">
 
     <div class="price-offer-buttons">
-        <button type="button" class="toggleButton toggleButtonActive">
+        <button type="button" data-toggle="monthly" class="toggleButton toggleButtonActive">
             <p class="toggleButton-text">Monthly</p>
         </button>
-        <button type="button" class="toggleButton">
+        <button type="button" data-toggle="yearly" class="toggleButton">
             <p class="toggleButton-text">Yearly</p>
         </button>
     </div>
@@ -218,7 +218,7 @@
         <div class="price-offer-cards-two">
             <div class="price-offer-card">
                 <div class="price-offer-card-container">
-                    <div class="lineTopCard cardActive"></div>
+                    <div id="monthly-card" class="lineTopCard cardActive"></div>
                     <div class="level-price-offer-card">
                         Basic
                     </div>
@@ -272,7 +272,7 @@
             </div>
             <div class="price-offer-card">
                 <div class="price-offer-card-container">
-                    <div class="lineTopCard"></div>
+                    <div id="yearly-card" class="lineTopCard"></div>
                     <div class="level-price-offer-card">
                         Pro
                     </div>
@@ -423,7 +423,7 @@
             </div>
             <div class="registration-text-tittle-txt2">Please leave your request</div>
         </div>
-        <div class="registration-content">
+        <div class="registration-content"  id="start-free">
             <form action="" class="registration-form">
                 <input class="registration-form-input" type="text" placeholder="First Name" required>
                 <input class="registration-form-input" type="text" placeholder="Last Name" required>
@@ -442,7 +442,7 @@
                     </div>
                 </div>
                 <div>
-                    <a href="" id="start-free" class="registration-form-button">
+                    <a href="" class="registration-form-button">
                         <div class="text-button">
                             Send
                         </div>
