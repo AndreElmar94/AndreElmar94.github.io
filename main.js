@@ -48,12 +48,12 @@ window.addEventListener('scroll', function (e) {
 //     }
 // });
 
-//
-// const videoPlayButton = document.querySelector('.videoPlayButton');
-// videoPlayButton.addEventListener('click', function () {
-//     document.querySelector('.info-video').style.display = 'none';
-//     document.querySelector('.video_media').play();
-// });
+
+const videoPlayButton = document.querySelector('.videoPlayButton');
+videoPlayButton.addEventListener('click', function () {
+    document.querySelector('.info-video').style.display = 'none';
+    document.querySelector('.video_media').play();
+});
 
 // document.querySelector().log('movie-video').style.display = 'block';
 // document.querySelector().log('movie-video').play();
@@ -73,24 +73,71 @@ window.addEventListener('scroll', function (e) {
 const buttons = document.querySelectorAll('.toggleButton');
 const lines = document.querySelectorAll('.lineTopCard');
 
-for (let button of buttons) {
-    for (let line of lines) {
-
-        button.addEventListener('click', function () {
-            // line.addEventListener(function () {
-
-            buttons.forEach(i => i.classList.remove('toggleButtonActive'));
-            lines.forEach(i => i.classList.remove('cardActive'));
-
-            this.classList.toggle('toggleButtonActive');
-            line.classList.add('cardActive');
-
-            // });
-        });
+function clearButtonClasses(){
+    for (let button of buttons) {
+        button.classList.remove('toggleButtonActive')
     }
-    ;
 }
-;
+
+function clearCardClasses(){
+    for (let line of lines) {
+        line.classList.remove('cardActive')
+    }
+}
+
+for (let button of buttons) {
+    button.addEventListener('click', function (e) {
+
+        clearButtonClasses();
+        clearCardClasses();
+        this.classList.add('toggleButtonActive');
+        var cardType = this.getAttribute('data-toggle');
+        document.querySelector("#" + cardType + "-card").classList.add('cardActive')
+    });
+}
+
+// for (let button of buttons) {
+//     for (let line of lines) {
+//
+//         console.log('Rita')
+//
+//         button.addEventListener('click', function () {
+//             // line.addEventListener(function () {
+//
+//             buttons.forEach(i => i.classList.remove('toggleButtonActive'));
+//             lines.forEach(i => i.classList.remove('cardActive'));
+//
+//             this.classList.toggle('toggleButtonActive');
+//             line.classList.add('cardActive');
+//
+//             // });
+//         });
+//     }
+//     ;
+// }
+// ;
+// for (let button of buttons) {
+// //     for (let line of lines) {
+// //
+//         button.addEventListener('click', function () {
+// //             // line.addEventListener(function () {
+// //
+//             buttons.forEach(i => i.classList.remove('toggleButtonActive'));
+// //             lines.forEach(i => i.classList.remove('cardActive'));
+// //
+//             this.classList.toggle('toggleButtonActive');
+// //             line.classList.add('cardActive');
+// //
+// //             // });
+//         });
+//     }
+//     ;
+// // }
+// // ;
+
+
+
+
 
 
 // document.querySelector('.price-offer-buttons').addEventListener('click', function () {
