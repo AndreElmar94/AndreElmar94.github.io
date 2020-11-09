@@ -62,15 +62,35 @@
 
 
 @media all and  (max-width: 930px) {
-    .single-platform {
-        height: 750px;
-    }
 
     .single-platform-info {
-        width: 100%;
-        height: 700px;
-        flex-direction: column;
+        width: 70%;
+        justify-content: space-between;
+    }rm пишет
+
+    .single-platform-box-info {
+        width: 20%;
+        height: 80%;
     }
+
+    .sp-textBox-2 {
+        font-size: 14px;
+        width: 200px;
+    }
+
+    .sp-textBox-1 {
+        font-size: 15px;
+    }
+
+    /*.single-platform {*/
+    /*    height: 750px;*/
+    /*}*/
+
+    /*.single-platform-info {*/
+    /*    width: 100%;*/
+    /*    height: 700px;*/
+    /*    flex-direction: column;*/
+    /*}*/
 
 }
 
