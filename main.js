@@ -15,7 +15,7 @@ const headerLocal = document.querySelector('#headerTop');
 window.addEventListener('scroll', function (e) {
     const scrollFromTop = document.querySelector('html').scrollTop;
     if (scrollFromTop !== 0) {
-        headerLocal.style.background = 'green';
+        headerLocal.style.background = 'pink';
     } else {
 
         headerLocal.style.background = 'none';
