@@ -91,7 +91,7 @@ a.button:active {
 .container-single-platform {
     margin: 5%;
     height: 100%;
-    max-width: 1100px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -101,7 +101,7 @@ a.button:active {
 .container-analytics {
     margin: 5%;
     height: 100%;
-    max-width: 1100px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -589,7 +589,7 @@ button.videoPlayButton {
 }
 
 .info-video-content-txt1 {
-    width: 534px;
+    width: 100%;
     height: 50px;
     font-size: 38px;
     font-weight: 700;
@@ -740,6 +740,7 @@ button.videoPlayButton {
     background: #50E3C2;
 
 }
+
 .lineTopCard {
     height: 4px;
     width: 100%;
@@ -910,7 +911,6 @@ button.videoPlayButton {
     margin: 5%;
     height: 405px;
     width: 1144px;
-    border: 1px solid #E8E8EA;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -1301,7 +1301,21 @@ span {
 /*flex: 1*/
 
 #headerTop {
-    transition: background.3s;
+    transition: background .3s;
+}
+
+
+.currency {
+    width: 100%;
+    height: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #DBE4F1;
 }
 
 
