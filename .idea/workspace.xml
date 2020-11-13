@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ecb0ec-dc98-409c-85a9-6610bfd2269d" name="Default Changelist" comment="update main.js">
+    <list default="true" id="88ecb0ec-dc98-409c-85a9-6610bfd2269d" name="Default Changelist" comment="update index.html">
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/Account.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountCreateDto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountFullDto.java" afterDir="false" />
@@ -19,6 +19,7 @@
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountRepository.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountUpdateDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Backend/PP/src/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Backend/trainer-manager/src/main/resources/static/style.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Backend/web-trainer/src/main/java/com/example/webtrainer/controller/AppointmentController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Backend/web-trainer/src/main/java/com/example/webtrainer/controller/CommentsController.java" afterDir="false" />
@@ -39,9 +40,10 @@
       <change afterPath="$PROJECT_DIR$/../../Backend/web-trainer/src/main/resources/templates/header.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Backend/web-trainer/src/main/resources/templates/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Backend/web-trainer/src/main/resources/templates/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Backend/web-trainer/src/main/resources/templates/trainer-comments.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Backend/web-trainer/src/main/resources/templates/trainer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/class.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/Lesson1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/lesson_1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/php_lesson_1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/cod.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/style.css" afterDir="false" />
@@ -49,8 +51,7 @@
       <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/trainer1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/trainer2.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/trainer3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,11 +132,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/php" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/html" />
       <recent name="$PROJECT_DIR$/video" />
       <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -183,7 +184,14 @@
       <workItem from="1604679829152" duration="1717000" />
       <workItem from="1604783847893" duration="471000" />
       <workItem from="1604864733383" duration="2559000" />
-      <workItem from="1604932321020" duration="441000" />
+      <workItem from="1604932321020" duration="1360000" />
+      <workItem from="1605006553760" duration="776000" />
+      <workItem from="1605027102185" duration="653000" />
+      <workItem from="1605029698533" duration="774000" />
+      <workItem from="1605031503950" duration="2605000" />
+      <workItem from="1605041549329" duration="2832000" />
+      <workItem from="1605088878317" duration="1696000" />
+      <workItem from="1605092610829" duration="1720000" />
     </task>
     <task id="LOCAL-00001" summary="updates file">
       <created>1603272302266</created>
@@ -353,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604932437574</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="update index.html">
+      <created>1604933068731</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1604933068731</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,21 +398,30 @@
     <MESSAGE value="updates headertOP" />
     <MESSAGE value="add request.js" />
     <MESSAGE value="update main.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="update main.js" />
+    <MESSAGE value="update index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="update index.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="965" y="300" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603225632603">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="965" y="300" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1603225632603" />
+    <state x="261" y="251" width="577" height="561" key="NewPhpClassDialog" timestamp="1605093041124">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="261" y="251" width="577" height="561" key="NewPhpClassDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1605093041124" />
+    <state x="1252" y="481" width="399" height="149" key="NewPhpFileDialog" timestamp="1605093096525">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="1252" y="481" width="399" height="149" key="NewPhpFileDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1605093096525" />
     <state x="554" y="327" key="SettingsEditor" timestamp="1603176369812">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="554" y="327" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1603176369812" />
-    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604932456206">
+    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604933080817">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1604932456206" />
+    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1604933080817" />
     <state x="1013" y="466" width="438" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603227842498">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -410,9 +434,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="869" y="604" width="772" height="176" key="git4idea.remote.GitConfigureRemotesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1603226425304" />
-    <state x="657" y="253" key="run.anything.popup" timestamp="1603120677779">
+    <state x="657" y="253" key="run.anything.popup" timestamp="1605029842649">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1603120677779" />
+    <state x="657" y="253" key="run.anything.popup/67.27.1853.1053@67.27.1853.1053" timestamp="1605029842649" />
   </component>
 </project>
