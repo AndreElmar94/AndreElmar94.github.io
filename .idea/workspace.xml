@@ -10,7 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ecb0ec-dc98-409c-85a9-6610bfd2269d" name="Default Changelist" comment="update index.html">
+    <list default="true" id="88ecb0ec-dc98-409c-85a9-6610bfd2269d" name="Default Changelist" comment="update">
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/Account.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountCreateDto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Account_dto/src/AccountFullDto.java" afterDir="false" />
@@ -41,9 +41,6 @@
       <change afterPath="$PROJECT_DIR$/../../Backend/web-trainer/src/main/resources/templates/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Backend/web-trainer/src/main/resources/templates/registration.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Backend/web-trainer/src/main/resources/templates/trainer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/Lesson1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/lesson_1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/php_lesson_1.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/cod.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../html_trainer-manager-lapinskaya/style.css" afterDir="false" />
@@ -192,6 +189,8 @@
       <workItem from="1605041549329" duration="2832000" />
       <workItem from="1605088878317" duration="1696000" />
       <workItem from="1605092610829" duration="1720000" />
+      <workItem from="1605269817774" duration="446000" />
+      <workItem from="1605277222833" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="updates file">
       <created>1603272302266</created>
@@ -368,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604933068731</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="update">
+      <created>1605269962362</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1605269962362</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,14 +398,14 @@
     <MESSAGE value="add file apdation-new.css" />
     <MESSAGE value="add file adaptation-new.css" />
     <MESSAGE value="update adaptation-new.css" />
-    <MESSAGE value="update" />
     <MESSAGE value="add new file =&gt; mail.js &amp; updates all classes" />
     <MESSAGE value="updates" />
     <MESSAGE value="updates headertOP" />
     <MESSAGE value="add request.js" />
     <MESSAGE value="update main.js" />
     <MESSAGE value="update index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="update index.html" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="965" y="300" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603225632603">
@@ -418,10 +424,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="554" y="327" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1603176369812" />
-    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1604933080817">
+    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1605269995978">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1604933080817" />
+    <state x="822" y="287" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1605269995978" />
     <state x="1013" y="466" width="438" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603227842498">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
