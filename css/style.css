@@ -158,7 +158,7 @@ a.button:active {
 
 .info-header {
     width: 80%;
-    height: 30%;
+    height: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -630,7 +630,7 @@ button.videoPlayButton {
 
 .plan-texts {
     width: 750px;
-    height: 150px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -955,10 +955,10 @@ button.videoPlayButton {
 
 .reviews__list-cart-user {
     height: 43px;
-    width: 220px;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: inherit;
     align-items: center;
 }
 
@@ -975,7 +975,7 @@ button.videoPlayButton {
 
 .reviews__list-cart-user-name {
     height: 28px;
-    width: 148px;
+    width: 100%;
     font-weight: bold;
     font-size: 16px;
     line-height: 28px;
@@ -1023,7 +1023,7 @@ button.videoPlayButton {
 
 .registration-text-tittle-txt {
     height: 50px;
-    width: 419px;
+    /*width: 419px;*/
     font-weight: bold;
     font-size: 28px;
     line-height: 50px;
@@ -1033,7 +1033,7 @@ button.videoPlayButton {
 
 .registration-text-tittle-txt2 {
     height: 50px;
-    width: 470px;
+    /*width: 470px;*/
     font-weight: bold;
     font-size: 38px;
     line-height: 50px;
@@ -1239,10 +1239,9 @@ span {
     color: #F8FBFE;
 }
 
-
 .content-footer-bottom-line {
     width: 100%;
-    height: 18px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1254,12 +1253,12 @@ span {
 }
 
 .content-footer-bottom-line-left {
-    width: 234px;
+    width: 210px;
     font-weight: normal;
 }
 
 .content-footer-bottom-line-center {
-    width: 277px;
+    width: 285px;
     height: 18px;
     display: flex;
     flex-direction: row;
